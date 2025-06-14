@@ -10,8 +10,9 @@ import { remarkPlugins, rehypePlugins } from './plugins'
 import { SITE } from './src/config'
 
 export default defineConfig({
-  site: SITE.website,
+  //site: SITE.website,
   //base: SITE.base,
+  site: 'https://amdersz5g7.github.io/astro-litos/',
   base: 'astro-litos',
   prefetch: true,
   vite: {
