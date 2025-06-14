@@ -10,8 +10,8 @@ import { remarkPlugins, rehypePlugins } from './plugins'
 import { SITE } from './src/config'
 
 export default defineConfig({
-  site: SITE.website,
-  base: SITE.base,
+  //site: SITE.website,
+  //base: SITE.base,
   prefetch: true,
   vite: {
     plugins: [tailwindcss()],
