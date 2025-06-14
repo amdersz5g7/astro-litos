@@ -4,7 +4,7 @@ export const SITE: Site = {
   title: 'Litos',
   description: 'Litos is a blog theme built with Astro.js and Dnzzk2.',
   website: 'https://litos.vercel.app/',
-  base: '/astro-litos',
+  base: '/',
   author: 'Dnzzk2',
   ogImage: '/og-image.jpg',
 }
