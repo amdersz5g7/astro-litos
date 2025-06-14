@@ -12,6 +12,7 @@ import { SITE } from './src/config'
 export default defineConfig({
   //site: SITE.website,
   //base: SITE.base,
+  base: 'astro-litos',
   prefetch: true,
   vite: {
     plugins: [tailwindcss()],
